@@ -1,0 +1,310 @@
+.section--1 {
+}
+
+.section-1-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2.4rem;
+  padding-top: 2rem;
+}
+
+.section--1-head {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  width: 60%;
+  color: blue;
+  font-family: "Noto Sans Mandaic", sans-serif;
+}
+
+.section--1-head-text {
+  font-size: 1rem;
+  font-weight: 520;
+  line-height: 1.4;
+  margin-top: 0.9rem;
+  width: 50%;
+  color: blue;
+  font-family: "Noto Sans Mandaic", sans-serif;
+}
+
+.section-1-cont {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.section--1-cont--1,
+.section--1-cont--2,
+.section--1-cont--3,
+.section--1-cont--4 {
+  max-width: 22%;
+  height: 24rem;
+  box-shadow: 0 2px 16px 0 #b6b2b2;
+  border-radius: 15px;
+  background-color: #e7f5ff;
+  transition: all ease 1s;
+}
+
+.section--1-cont--1:hover,
+.section--1-cont--2:hover,
+.section--1-cont--3:hover,
+.section--1-cont--4:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+.section--1-cont--1 {
+}
+
+.section--1-cont--1-svg,
+.section--1-cont--2-svg,
+.section--1-cont--3-svg,
+.section--1-cont--4-svg {
+  height: 6rem;
+  width: 4rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.section--1-cont--1-head,
+.section--1-cont--2-head,
+.section--1-cont--3-head,
+.section--1-cont--4-head {
+  font-size: 1.4rem;
+  font-weight: 580;
+  line-height: 1.2;
+  margin-top: 0.5rem;
+  width: 60%;
+  margin-left: 2rem;
+  padding-bottom: 1.4rem;
+  font-family: "Noto Sans Mandaic", sans-serif;
+}
+
+.section--1-cont--3-head {
+  width: 80%;
+}
+
+.section--1-cont--1-text,
+.section--1-cont--2-text,
+.section--1-cont--3-text,
+.section--1-cont--4-text {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-top: 0.5rem;
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Noto Sans Mandaic", sans-serif;
+}
+.section--2 {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin-top: 8rem;
+  margin-left: 2rem;
+}
+
+.about-image {
+  max-width: 32rem;
+  height: 26rem;
+}
+
+.section-2-cont-2-info {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-top: 0.5rem;
+  width: 94%;
+  font-family: "Noto Sans Mandaic", sans-serif;
+}
+
+.section-2-cont-2-lines {
+  margin-top: 1rem;
+}
+
+.section-2-cont-2-line-1,
+.section-2-cont-2-line-2,
+.section-2-cont-2-line-3,
+.section-2-cont-2-line-4 {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.section-2-cont-2-line-1-text {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  width: 100%;
+  font-family: "Noto Sans Mandaic", sans-serif;
+}
+
+.section-2-cont-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12rem;
+  height: 3rem;
+  background-color: #1c7ed6;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+
+.section-2-cont-3:hover {
+  background-color: rgb(20, 20, 221);
+}
+
+.section-2-cont-3-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: "Noto Sans Mandaic", sans-serif;
+}
+
+.section--3 {
+  display: flex;
+  flex-direction: row-reverse;
+  /* justify-content: center; */
+  padding-top: 8rem;
+}
+
+.section--3-cont-1 {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+}
+
+.section-3-image {
+  width: 16rem;
+  height: 38rem;
+  transition: all ease-in-out 1.4s;
+}
+
+.section-3-image:hover {
+  padding-bottom: 2rem;
+}
+
+.section--3-cont-2 {
+  width: 100%;
+  height: 100%;
+  padding-top: 8rem;
+  margin-left: 4rem;
+}
+
+.section--3-head {
+  font-size: 2.2rem;
+  font-weight: 700;
+  width: 100%;
+  margin-bottom: 2rem;
+  font-family: "Noto Sans Mandaic", sans-serif;
+}
+
+.section--3-text-1,
+.section--3-text-2,
+.section--3-text-3 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  width: 90%;
+  margin-bottom: 2rem;
+  font-family: "Noto Sans Mandaic", sans-serif;
+  color: #7a7f83;
+}
+
+.section--4 {
+  display: flex;
+  margin-top: 20rem;
+  background-color: #f5eded;
+  padding-top: 8rem;
+}
+
+.section--4-cont-1 {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  width: 70%;
+  height: 32rem;
+}
+
+.section--4-image {
+  width: 32rem;
+  height: 28rem;
+}
+
+.section--4-cont-2 {
+}
+
+.section--4-head {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #686161;
+  width: 90%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-family: "Noto Sans Mandaic", sans-serif;
+}
+
+.section--4-text {
+  font-size: 0.9rem;
+  font-weight: border;
+  line-height: 1.4;
+  color: #686161;
+  width: 90%;
+  margin-bottom: 0.9rem;
+  font-family: "Noto Sans Mandaic", sans-serif;
+}
+
+.ul-text {
+  margin-left: 1.2rem;
+  list-style: square blue;
+}
+
+.section--4-info {
+  display: flex;
+  gap: 2rem;
+}
+
+.customer p:first-child,
+.order p:first-child,
+.satisfied p:first-child {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: blue;
+  width: 100%;
+  font-family: "Noto Sans Mandaic", sans-serif;
+}
+
+.customer,
+.order,
+.satisfied {
+}
+
+.customer p,
+.order p,
+.satisfied p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #978f8f;
+  width: 90%;
+  font-family: "Noto Sans Mandaic", sans-serif;
+  display: block;
+}
+
+.satisfied p:last-child {
+  margin-top: 0.8rem;
+}
+
+.border {
+  width: 2px;
+  height: 4rem;
+  background-color: #b6b2b2;
+  gap: 10px;
+}
+
+.section--5 {
+  margin-top: 10rem;
+}
